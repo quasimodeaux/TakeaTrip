@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="css/website.css" rel="stylesheet" type="text/css" />
+	<link href="bulma-0.2.3\css\bulma2.css" rel="stylesheet" type="text/css" />
+		<script src="js/js.js"></script>
+	<title> Games4Days </title>
+
+			<div class="hero-head">
+				<header class="nav">
+					<div class="container">
+						<div class="nav-left">
+
+						</div>
+						<span class="nav-toggle">
+							<span></span>
+							<span></span>
+							<span></span>
+						</span>
+						<div class="nav-right nav-menu">
+
+							<a class="button is-info is-outlined"<a href="home.html">home</a>
+							<a class="button is-info is-outlined"<a href="games.html">games</a>
+							<a class="button is-info is-outlined"<a href="sounds.html">classic sounds</a>
+							<a class="button is-info is-outlined"<a href="quiz.html">quiz</a>
+							<a class="button is-info is-outlined"<a href="equipment.html">equipment</a>
+
+
+						</div>
+					</div>
+				</header>
+			</div>
+</head>
+
+<div style="margin-left:25%;padding:1px 16px;height:1000px;" class="slideshow" position= 'center' style="max-width:500px">
+<body>
+
+
+
+
+
+
+	<hr>
+
+
+
+  <script>
+
+
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+  }
+  </script>
+
+
+
+  	<section>
+  <div id="results"></div>
+  <form name="quizForm" onsubmit="return submitAnswers()">
+
+
+  <p class="question">1. Who stands amongst the Originators of Hip hop?</p>
+
+  <li class="answers">
+  <input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Grand Master Flash</label><br/>
+  <input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Lil Uzi Vert</label><br/>
+  <input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Drake</label><br/>
+  <input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Kanye</label><br/>
+  </ul>
+
+
+  <p class="question">2. Who was shot nine times?</p>
+
+  <li class="answers">
+  <input type="radio" name="q2" value="a" id="q2a"><label for="q2a">50 Cent</label><br/>
+  <input type="radio" name="q2" value="b" id="q2b"><label for="q2b">Asap Rocky</label><br/>
+  <input type="radio" name="q2" value="c" id="q2c"><label for="q2c">Slim Jesus</label><br/>
+  <input type="radio" name="q2" value="d" id="q2d"><label for="q2d">Martin Lawrence</label><br/>
+  </ul>
+
+  <p class="question">3. What is a MC (or "Master of Ceremonies")?</p>
+
+  <li class="answers">
+  <input type="radio" name="q3" value="a" id="q3a"><label for="q3a"> a DJ's onstage announcer, esp. one who raps</label><br/>
+  <input type="radio" name="q3" value="b" id="q3b"><label for="q3b">hype man</label><br/>
+  <input type="radio" name="q3" value="c" id="q3c"><label for="q3c">Master Clown</label><br/>
+  <input type="radio" name="q3" value="d" id="q3d"><label for="q3d">Mucho Consuela</label><br/>
+  </ul>
+
+  <p class="question">4. What is G Funk?</p>
+
+  <li class="answers">
+  <input type="radio" name="q4" value="a" id="q4a"><label for="q4a">funk-based subgenre of gangsta rap</label><br/>
+  <input type="radio" name="q4" value="b" id="q4b"><label for="q4b">Food</label><br/>
+  <input type="radio" name="q4" value="c" id="q4c"><label for="q4c">Rock Genre</label><br/>
+  <input type="radio" name="q4" value="d" id="q4d"><label for="q4d">Malicious intent</label><br/>
+  </ul>
+
+  <p class="question">5. What is  a rotating plate that records sit on while being played?</p>
+
+  <li class="answers">
+  <input type="radio" name="q5" value="a" id="q5a"><label for="q5a">turntable </label><br/>
+  <input type="radio" name="q5" value="b" id="q5b"><label for="q5b">scratching </label><br/>
+  <input type="radio" name="q5" value="c" id="q5c"><label for="q5c">mixtape </label><br/>
+  <input type="radio" name="q5" value="d" id="q5d"><label for="q5d">beats </label><br/>
+  </ul>
+
+  <p class="question">6."Stapped like bamboo but I don't sling guns, I got bags of funk and it's sellin' by the tons/Niggas wanna know how I live the mack life, making money, smokin' mics like crack pipes" The lyrics above are performed by?</p>
+
+  <li class="answers">
+  <input type="radio" name="q6" value="a" id="q6a"><label for="q6a">Notorious B.I.G.</label><br/>
+  <input type="radio" name="q6" value="b" id="q6b"><label for="q6b">Tupac</label><br/>
+  <input type="radio" name="q6" value="c" id="q6c"><label for="q6c">Mack Maine</label><br/>
+  <input type="radio" name="q6" value="d" id="q6d"><label for="q6d">Nicki Minaj</label><br/>
+  </ul>
+
+  <p class="question">7. List the original members of The L.O.X.:</p>
+
+  <li class="answers">
+  <input type="radio" name="q7" value="a" id="q7a"><label for="q7a">Jadakiss, Styles P, Sheek Louch</label><br/>
+  <input type="radio" name="q7" value="b" id="q7b"><label for="q7b">Run the Jewels</label><br/>
+  <input type="radio" name="q7" value="c" id="q7c"><label for="q7c">Joey Badass, Kirk Knight, Roy Williams</label><br/>
+  <input type="radio" name="q7" value="d" id="q7d"><label for="q7d">Save Money</label><br/>
+  </ul>
+
+  <p class="question">8. Who was not on XXL's Freshmen Ten of 2013?</p>
+
+  <li class="answers">
+  <input type="radio" name="q8" value="a" id="q8a"><label for="q8a">Charles Hamilton</label><br/>
+  <input type="radio" name="q8" value="b" id="q8b"><label for="q8b">Joey Badass</label><br/>
+  <input type="radio" name="q8" value="c" id="q8c"><label for="q8c">Dizzy Wright</label><br/>
+  <input type="radio" name="q8" value="d" id="q8d"><label for="q8d">Schoolboy Q</label><br/>
+  </ul>
+
+  <p class="question">9. What is software used to produce music, movie soundtracks, etc?</p>
+
+  <li class="answers">
+  <input type="radio" name="q9" value="a" id="q9a"><label for="q9a">Digital Audio Workstation</label><br/>
+  <input type="radio" name="q9" value="b" id="q9b"><label for="q9b">Media Composer</label><br/>
+  <input type="radio" name="q9" value="c" id="q9c"><label for="q9c">Michael Jackson</label><br/>
+  <input type="radio" name="q9" value="d" id="q9d"><label for="q9d">The Game</label><br/>
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <input type="submit" value ="Submit Answers">
+  </form>
+  	</section>
+
+  <br/>
+
+  </body>
+  </div>
+</html>
